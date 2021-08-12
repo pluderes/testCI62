@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+}
+.container {
+  margin-top: 50px;
+}
+#Sp {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding: 0 5px;
+  border-radius: 7px;
+}
+.content {
+  background-color: white;
+  border-radius: 10px;
+}
+.link {
+  display: flex;
+  margin-bottom: 10px;
+}
+.link > input {
+  height: fit-content;
+}
+#action {
+  width: auto;
+  height: auto;
+  border: unset;
+  border-radius: 2px;
+  color: white;
+  background-color: darkslateblue;
+  display: flex;
+}
+#inpLink {
+  margin: 0 5px;
+}
+.domain {
+  display: flex;
+  margin-bottom: 10px;
+}
+.domain > input[type="radio"] {
+  display: none;
+}
+
+.domain > label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 5px;
+  margin: 0 2px;
+  background-color: rgb(152, 154, 155);
+  border-radius: 3px;
+}
+
+.domain > .blank-label {
+  display: none;
+}
+
+.domain > input[type="radio"]:checked + label {
+  background: darkslateblue;
+  color: #fff;
+}
+
+.result {
+  background-color: white;
+  border-radius: 10px;
+  width: fit-content;
+}

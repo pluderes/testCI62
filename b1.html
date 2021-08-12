@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test CI</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/test.css" />
+  </head>
+  <body>
+    <div class="container col-6 center">
+      <div class="title">
+        <h1>The <span id="Sp">privacy-friendly</span> URL Shortener</h1>
+      </div>
+      <div id="content" class="content p-4">
+        <h3><b>Link shortener</b></h3>
+        <br />
+        <div class="link">
+          <p class="m-0 p-0">Enter a Link:</p>
+          <input type="text" name="inpLink" id="inpLink" />
+          <button id="action">
+            <i class="fas fa-arrow-right m-auto"></i>
+          </button>
+        </div>
+        <div class="domain">
+          <p class="m-0 p-0">Short domain:</p>
+          <input type="radio" id="shrtco" name="domain" value="" />
+          <label for="shrtco">shrtco.de</label>
+
+          <input type="radio" id="qr" name="domain" value="" />
+          <label for="qr">9qr.de</label>
+
+          <input type="radio" id="shiny" name="domain" value="" />
+          <label for="shiny">shiny.link</label>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            volutpat felis nisi, vitae dapibus nisi tincidunt eget. Nam tortor
+            nisi, accumsan id nulla in, finibus posuere leo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/test.js"></script>
+</html>
