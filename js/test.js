@@ -70,9 +70,8 @@ async function getshrtco(link) {
     `afterend`,
     `
     <br>
-  <div class="result p-4">
+  <div class="result p-4" style="margin: auto">
   <h3><b>Link generated</b></h3>
-  <br />
     <a href=" ${data.result.short_link}">${data.result.short_link}</a>
 </div>
   `
@@ -88,9 +87,8 @@ async function get9qr(link) {
     `afterend`,
     `
     <br>
-  <div class="result p-4">
+  <div class="result p-4" style="margin: auto">
   <h3><b>Link generated</b></h3>
-  <br />
   <a href=" ${data.result.short_link2}">${data.result.short_link2}</a>
 </div>
   `
@@ -106,9 +104,8 @@ async function getshiny(link) {
     `afterend`,
     `
     <br>
-  <div class="result p-4">
+  <div class="result p-4" style="margin: auto">
   <h3><b>Link generated</b></h3>
-  <br />
   <a href="${data.result.short_link3}">${data.result.short_link3}</a>
 </div>
   `
