@@ -2,7 +2,7 @@
 // Nhập vào một mảng các số nguyên, tìm cặp hai số liền kề có tích lớn nhất và trả về kết quả của phép nhân 2 số đó.
 // Ví dụ: INPUT là [2, 3, -5, -2, 4] thì OUTPUT là 10 (cặp -5 và -2 có tích là 10)
 
-let inpNum = prompt("Nhap vao 1 mang:");
+// let inpNum = prompt("Nhap vao 1 mang:");
 function adjacentElementsProduct(arr) {
   let max = Number.MIN_SAFE_INTEGER;
   arr = arr.split(", ");
@@ -18,7 +18,7 @@ function adjacentElementsProduct(arr) {
   console.log(`Max: `, max);
   console.log(`Vi tri: `, index, " va ", index + 1);
 }
-adjacentElementsProduct(inpNum);
+// adjacentElementsProduct(inpNum);
 
 // -----------------------------------------------------------------------------
 // B2
